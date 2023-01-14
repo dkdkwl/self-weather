@@ -1,3 +1,4 @@
+body{background-image: url('https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg');background-repeat: no-repeat;background-size: cover;}
 .buttonList{display: flex;align-items: center;text-align: center;list-style-type: none;justify-content: center;gap: 10px;}
 .buttonList--item{font-size: 14px;list-style: none;background-color: coral;border-radius: 7px;font-style: normal;border: 1px solid coral;}
 .buttonList--item a{font-style: normal;color: #fff;text-decoration: none;display: block;padding: 8px 14px;}
