@@ -10,6 +10,7 @@ export const getWeatherApi = selector({
         let cityName = get(cityState);
         let weatherApi = await api.get(`/weather?q=${cityName}&appid=${apiKey}&units=metric`);
         let weatherData = await weatherApi.data;
+        console.log(weatherData);
         return weatherData
     }
 }) 
