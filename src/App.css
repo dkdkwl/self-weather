@@ -6,6 +6,7 @@ body{background-image: url('https://img.freepik.com/free-vector/gorgeous-clouds-
 .weatherBox{background-color: #fff;width: 100%;max-width: 450px;margin: 40px auto 20px;padding: 15px 30px;border-radius: 20px;}
 
 .outArea{max-height: 150px;overflow-y: auto;}
-.inputArea{display: flex;}
+.input-group{max-width: 450px;width: 100%;}
+.inputArea{display: flex;width: 100%;}
 .inputArea input{max-width: calc(100% - 60px);width: 100%;height: 30px;border: none;}
 .inputArea button{max-width: 60px;width: 100%;height: 30px;font-size: 14px;background-color: lightblue;border: none;color: #000;font-weight: 600;cursor: pointer;}
