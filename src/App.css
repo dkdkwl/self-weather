@@ -1,6 +1,11 @@
 body{background-image: url('https://img.freepik.com/free-vector/gorgeous-clouds-background-with-blue-sky-design_1017-25501.jpg');background-repeat: no-repeat;background-size: cover;}
-.App{display: flex;align-items: center;flex-wrap: wrap;flex-direction: column;height: 100vh;justify-content: center;}
+.App{display: flex;align-items: center;flex-wrap: nowrap;height: 100vh;justify-content: center;flex-direction: column;}
 .buttonList{display: flex;align-items: center;text-align: center;list-style-type: none;justify-content: center;gap: 10px;}
 .buttonList--item{font-size: 14px;list-style: none;background-color: coral;border-radius: 7px;border: 1px solid coral;font-style: normal;color: #fff;text-decoration: none;display: block;padding: 8px 14px;cursor: pointer;}
 .buttonList--item:hover{border: 1px solid coral;background-color: #fff;color: coral;}
 .weatherBox{background-color: #fff;width: 100%;max-width: 450px;margin: 40px auto 20px;padding: 15px 30px;border-radius: 20px;}
+
+.outArea{max-height: 150px;overflow-y: auto;}
+.inputArea{display: flex;}
+.inputArea input{max-width: calc(100% - 60px);width: 100%;height: 30px;border: none;}
+.inputArea button{max-width: 60px;width: 100%;height: 30px;font-size: 14px;background-color: lightblue;border: none;color: #000;font-weight: 600;cursor: pointer;}
